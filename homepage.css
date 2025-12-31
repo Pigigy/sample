@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 980px;
+    padding: 0 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 64px;
+    width: 100%;
+    box-shadow: 0 0 10px gray;
+    background-color: #83cf31;
+    position: fixed;
+    top: 0;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    line-height: 64px;
+    color: rgb(243, 243, 255);
+    margin-left: 3px;
+    font-size: 20px;
+    padding: 18px 5px;
+}
+
+.header-right a:hover {
+    background-color: #b2dcff;
+    transition: background-color 0.4s;
+}
+
+.clear {
+    clear: both;
+}
+
+.main-vis {
+    padding-top: 340px;
+    padding-bottom: 380px;
+    background-image: url("images/west-2795177_1280.jpg");
+    background-size: cover;
+    color: rgba(123, 202, 226, 0.986);
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sub-subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    height: 180px;
+    background: rgba(172, 71, 46, 0.795);
+    color: #e8e8e8;
+    padding-top: 20px;
+}
